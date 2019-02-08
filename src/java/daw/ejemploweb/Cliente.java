@@ -11,10 +11,10 @@ package daw.ejemploweb;
  */
 public class Cliente {
     private String nombre;
-    private String edad;
+    private int edad;
     private String email;
 
-    public Cliente(String nombre, String edad, String email) {
+    public Cliente(String nombre, String email, int edad) {
         this.nombre = nombre;
         this.edad = edad;
         this.email = email;
@@ -28,11 +28,11 @@ public class Cliente {
         this.nombre = nombre;
     }
 
-    public String getEdad() {
+    public int getEdad() {
         return edad;
     }
 
-    public void setEdad(String edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
 
